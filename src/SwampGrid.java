@@ -22,8 +22,10 @@ public class SwampGrid {
 	public void printSwamp() {
 		for (int i = 0; i <= squares.length; i++) {
 			for (int j = 0; j < squares.length; j++) {
-				System.out.println(this.squares[i, j));
+				System.out.print(" S ");
 			}
+			System.out.println();
+
 		}
 	}
 	
